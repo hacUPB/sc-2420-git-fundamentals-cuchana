@@ -1,0 +1,39 @@
+
+## Excluir:
+
+# Archivos binarios generados durante la compilación
+*.o         # Archivos de objeto
+*.a         # Archivos de librería estática
+*.so        # Archivos de librería compartida
+*.exe       # Archivos ejecutables
+*.out       # Archivos de salida ejecutables
+*.dll       # Archivos de librería dinámica (Windows)
+*.dylib     # Archivos de librería dinámica (macOS)
+*.lo        # Archivos de objeto de libtool
+*.la        # Archivos de librería de libtool
+
+# Archivos de respaldo y temporales
+*~          # Archivos de respaldo generados por algunos editores
+*.swp       # Archivos swap generados por Vim
+*.swo       # Archivos swap generados por Vim
+*.bak       # Archivos de respaldo
+*.tmp       # Archivos temporales
+*.log       # Archivos de log
+
+# Directorios de compilación
+/build/     # Directorio de compilación
+/bin/       # Directorio de binarios
+/obj/       # Directorio de objetos
+
+# Archivos de configuración de herramientas de desarrollo
+*.DS_Store  # Archivo de sistema generado por macOS
+.vscode/    # Configuraciones de Visual Studio Code
+.idea/      # Configuraciones de IntelliJ IDEA
+*.iml       # Archivos de módulo de IntelliJ IDEA
+
+# Archivos de configuración del sistema de construcción
+Makefile~   # Archivo de respaldo de Makefile
+CMakeFiles/ # Directorio de archivos de CMake
+CMakeCache.txt # Archivo de caché de CMake
+*.cmake     # Archivos de configuración de CMake
+
